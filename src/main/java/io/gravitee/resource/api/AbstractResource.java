@@ -34,4 +34,9 @@ public abstract class AbstractResource extends AbstractLifecycleComponent<Resour
     @Override protected void doStop() throws Exception {
         LOGGER.info("Destroying resource");
     }
+
+    @Override
+    public String name() {
+        return null;
+    }
 }
