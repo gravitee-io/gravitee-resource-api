@@ -31,7 +31,7 @@
     <artifactId>gravitee-resource-api</artifactId>
     <version>1.1.0-SNAPSHOT</version>
 
-    <name>Gravitee IO - Resource - API</name>
+    <name>Gravitee.io APIM - Resource - API</name>
 
     <properties>
         <gravitee-common.version>1.0.0</gravitee-common.version>
