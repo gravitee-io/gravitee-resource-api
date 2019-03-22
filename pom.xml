@@ -29,12 +29,12 @@
 
     <groupId>io.gravitee.resource</groupId>
     <artifactId>gravitee-resource-api</artifactId>
-    <version>1.1.0-SNAPSHOT</version>
+    <version>1.1.0</version>
 
     <name>Gravitee.io APIM - Resource - API</name>
 
     <properties>
-        <gravitee-common.version>1.14.0-SNAPSHOT</gravitee-common.version>
+        <gravitee-common.version>1.14.0</gravitee-common.version>
         <javax.inject.version>1</javax.inject.version>
     </properties>
 
