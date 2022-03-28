@@ -19,5 +19,4 @@ package io.gravitee.resource.api;
  * @author David BRASSELY (david at gravitee.io)
  * @author GraviteeSource Team
  */
-public interface ResourceConfiguration {
-}
+public interface ResourceConfiguration {}
