@@ -22,6 +22,5 @@ import io.gravitee.common.component.LifecycleComponent;
  * @author GraviteeSource Team
  */
 public interface Resource extends LifecycleComponent<Resource> {
-
     String name();
 }

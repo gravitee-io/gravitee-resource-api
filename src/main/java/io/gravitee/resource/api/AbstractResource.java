@@ -27,11 +27,13 @@ public abstract class AbstractResource extends AbstractLifecycleComponent<Resour
 
     private final Logger LOGGER = LoggerFactory.getLogger(this.getClass());
 
-    @Override protected void doStart() throws Exception {
+    @Override
+    protected void doStart() throws Exception {
         LOGGER.info("Initializing resource");
     }
 
-    @Override protected void doStop() throws Exception {
+    @Override
+    protected void doStop() throws Exception {
         LOGGER.info("Destroying resource");
     }
 
