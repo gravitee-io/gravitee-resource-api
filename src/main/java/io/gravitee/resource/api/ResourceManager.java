@@ -20,7 +20,6 @@ package io.gravitee.resource.api;
  * @author GraviteeSource Team
  */
 public interface ResourceManager {
-
     Object getResource(String name);
 
     <T> T getResource(Class<T> requiredType);
