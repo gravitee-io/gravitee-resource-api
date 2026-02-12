@@ -34,7 +34,7 @@
     <name>Gravitee.io APIM - Resource - API</name>
 
     <properties>
-        <gravitee-common.version>1.25.0</gravitee-common.version>
+        <gravitee-common.version>1.28.0</gravitee-common.version>
         <javax.inject.version>1</javax.inject.version>
     </properties>
 
