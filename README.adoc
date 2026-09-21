@@ -14,3 +14,16 @@ It is a very generic API and it is extended by more specific APIs:
  * Authentication: https://github.com/gravitee-io/gravitee-resource-auth-provider
  * Cache: https://github.com/gravitee-io/gravitee-resource-cache-provider-api
  * OAuth2: https://github.com/gravitee-io/gravitee-resource-oauth2-provider-api
+
+== Compatibility matrix
+
+|===
+| Plugin version | APIM            | Java version
+
+| 2.x            | 4.9.x to latest | 21
+| 1.x            | 4.9.x to latest | 8
+|===
+
+The *Java version* column is the bytecode level of the latest release of each line, which sets the minimum runtime able to load the artifact.
+
+APIM pins the version it ships — 1.1.0 on every branch from 4.9 to master — and provides it through the gateway, so the 2.x bump is backported to the support branches rather than left to master alone.
